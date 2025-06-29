@@ -7,6 +7,7 @@ require_once $dirbase . '/endpoints/user_get.php';
 
 require_once $dirbase . '/endpoints/photo_post.php';
 require_once $dirbase . '/endpoints/comment_post.php';
+require_once $dirbase . '/endpoints/comment_get.php';
 
 
 update_option('large_size_w', 1000);
