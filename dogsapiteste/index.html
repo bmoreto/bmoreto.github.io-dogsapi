@@ -11,8 +11,8 @@
   <button id="button">Click</button>
   <script>
     const body = {
-      "username": "cat",
-      "password": "catps",
+      "username": "",
+      "password": "",
     }
 
     function fetchData() {
@@ -20,7 +20,7 @@
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjEwMDIyIiwiaWF0IjoxNzUwOTI2ODc3LCJuYmYiOjE3NTA5MjY4NzcsImV4cCI6MTc1MTUzMTY3NywiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiMiJ9fX0.yxvhdctIVRxG-lwwncEP8_lG4x-CzIxKcBqxBGGJYYA',
+          Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjEwMDIyIiwiaWF0IjoxNzUxMjAzNDgzLCJuYmYiOjE3NTEyMDM0ODMsImV4cCI6MTc1OTg0MzQ4MywiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiMSJ9fX0.UlMj4ETxS6xTA-6hPEUWXE43PznFXvHj_8DvB0WWUPc',
         },
         body: JSON.stringify(body)
       }).then(response => {
