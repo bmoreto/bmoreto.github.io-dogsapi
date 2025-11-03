@@ -3,12 +3,6 @@
 This project was developed during the **WordPress REST API Course** by [Origamid](https://www.origamid.com/).  
 The course focuses on learning how to use and customize the **WordPress REST API** for integration with front-end applications — specifically for the **Complete React Course** project.
 
-## 🚀 About the Course
-
-The main goal of this course is to teach how to **create custom and specific endpoints** in WordPress, extending the default REST API functionalities to meet real project requirements.
-
-Throughout the lessons, I learned how to interact with WordPress as a headless CMS and how to build tailored API routes for a modern front-end environment.
-
 ---
 
 ## ⚙️ Features and Focus
